@@ -68,7 +68,7 @@ WITH double_line AS (
 	PARTITION BY donor_id, event_id, donation_data, donation_count
 	ORDER BY id) AS cnt_double
 	FROM
-		donors`earch.user_donation ud
+		donorsearch.user_donation ud
 )
 SELECT 
 	COUNT(*) AS total_rows
