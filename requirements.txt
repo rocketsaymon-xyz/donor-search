@@ -1,0 +1,12 @@
+# Data Analysis
+pandas==2.2.3
+numpy==2.1.3
+
+# Visualization
+matplotlib==3.10.0
+
+# Survival Analysis
+lifelines==0.30.3
+
+# Knee Point Detection
+kneed==0.8.6
